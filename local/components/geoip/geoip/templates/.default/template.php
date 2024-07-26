@@ -15,7 +15,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
                 <div class="row">
                     <form id="geoform" method="post">
                         <div>
-                            <input class="ip" type="text" name="ip" id="ip" value="104.21.15.212" placeholder="введите IP адрес, например 172.217.22.14">
+                            <input class="ip" type="text" name="ip" id="ip" value="" placeholder="введите IP адрес, например 172.217.22.14">
                         </div>
                         <div>
                             <button id="request" type="submit">Проверить</button>
