@@ -1,0 +1,101 @@
+#geo .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+#geo .container {
+    max-width: 800px;
+    width: 80%;
+    min-width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#geo .block {
+    background-color: #fbfbfb;
+    border: 1px solid #ce95c61f;
+    border-radius: 8px;
+}
+#geo .row:first-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#geo .row {
+    padding: 20px 20px;
+}
+
+#geo form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#geo form div {
+    margin: 5px 0;
+}
+#geo form div:first-child {
+    margin-right: 5px;
+    flex: 1 1 60%;
+}
+
+#geo form div:last-child {
+    flex: 1 1 30%;
+    margin-right: 5px;
+}
+
+#geo form input[type=text] {
+    padding: 4px 8px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background-color: white !important;
+}
+#geo form input[type=text]::placeholder {
+    font-size: 13px;
+    color: #646464;
+}
+
+#geo form button {
+    padding: 6px 8px;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    background-color: #ce95c6;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    transition: all  0.3s;
+}
+
+#geo form button:hover {
+    background-color: #ffd1f9;
+    color: #323232;
+
+}
+
+#geo #alert {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#geo .error {
+    color: red;
+    padding: 0 0 20px 0;
+
+}
+
+#ipdata{
+    display: none;
+    background: #ce95c6;
+    color: white;
+    border-radius: 0 0 8px 8px;
+}
+
